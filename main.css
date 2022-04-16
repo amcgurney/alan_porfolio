@@ -11,21 +11,18 @@ body {
   font-family: "Ubuntu Mono", monospace;
 }
 
-/* the anchor tags (<a href="" class="profile-link">...) have "class="profile-link" so we can select them in CSS with ".profile-link" (with a period before the class name)*/
 .profile-link {
   color: #019cdc;
   font-size: 12px;
   display: block;
 }
 
-/* ":visited" will effect the color
- of links you have previously clicked on (may apply to links with empty href) */
+
 .profile-link:visited {
   color: #f58428;
 }
 
-/* ":hover" will effect the color
- of links when you "mouseover" */
+
 .profile-link:hover {
   color: #7ac043;
 }
@@ -35,7 +32,6 @@ body {
   font-size: 12px;
 }
 
-/* this "nested" selector finds all of elements with class "inner" inside element with class "square-one" */
 .square-one .inner {
   background: orange;
 }
